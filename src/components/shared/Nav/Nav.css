@@ -1,8 +1,11 @@
 .nav-bar {
   display: -webkit-flex;
-  background-color: #bfd9d6;
+  background: url('https://github.com/laport14/portfolio/blob/main/src/Assets/background.png?raw=true');
   height: 20vh;
-  width: 100vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  min-width: 100vw;
 }
 
 .nav-contents {
@@ -18,6 +21,11 @@
   display: flex;
   justify-content: space-between;
   width: 400px;
+}
+
+.nav-logo {
+  height: 180px;
+  width: 180px;
 }
 
 h3 {

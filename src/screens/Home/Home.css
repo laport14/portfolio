@@ -1,4 +1,62 @@
 .content-container {
-  background-color: #bfd9d6;
+  background: url('https://github.com/laport14/portfolio/blob/main/src/Assets/background.png?raw=true');
   height: 80vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  min-width: 100vw;
+}
+
+.hero-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.border-gradient {
+  border-top: 10px solid;
+  border-image-slice: 1;
+  border-width: 5px;
+}
+
+.border-gradient-pink {
+  border-image-source: linear-gradient(to left, #75e2df,	#e87fcd);
+}
+
+.hero-text-header {
+  font-size: 80px;
+  font-family: 'Bebas Neue', sans-serif;
+  margin-top: 100px;
+  margin-bottom: 0px;
+  color: #333843;
+}
+
+.job-title {
+  color: #333843;
+}
+
+.about-text {
+  color: #333843;
+}
+
+.project-button {
+  width: 200px;
+  height: 40px;
+  margin: 0 auto;
+  background-color: #333843;
+  background: linear-gradient(-270deg, #75e2df,	#e87fcd);
+  border: none;
+  color: #333843;
+  letter-spacing: 2px;
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+.project-button:onhover {
+  cursor: pointer;
+}
+
+.job-title {
+  font-size: 35px;
+  font-family: 'Bebas Neue', sans-serif;
+  margin: 10px;
 }

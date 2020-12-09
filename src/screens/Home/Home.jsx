@@ -7,9 +7,12 @@ function Home(props) {
     <Layout>
       <div>
         <div className='content-container'>
-          <h1>Geoff LaPorte</h1>
-          <h2>Software Engineer</h2> 
-
+          <div className='hero-container border-gradient border-gradient-pink'>
+            <h1 className='hero-text-header'>Geoff LaPorte</h1>
+            <h2 className='job-title'>Junior Software Engineer</h2>
+            <p className='about-text'>Some lorem ipsem here</p>
+            <button className='project-button'>Projects</button>
+            </div>
         </div>
       
     </div>
