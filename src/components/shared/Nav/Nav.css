@@ -1,0 +1,25 @@
+.nav-bar {
+  display: -webkit-flex;
+  background-color: #bfd9d6;
+  height: 20vh;
+  width: 100vw;
+}
+
+.nav-contents {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.nav-links{
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+}
+
+h3 {
+  color: #333843;
+}
