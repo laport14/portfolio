@@ -4,6 +4,7 @@ import Layout from '../../components/shared/Layout/Layout';
 import Greenhouse from '../../Assets/greenhouse.png'
 import Bucketlist from '../../Assets/bucketlist.png'
 import Fittech from '../../Assets/fittech.png'
+import Bartender from '../../Assets/bartender.png'
 
 function Projects(props) {
   return (
@@ -25,6 +26,12 @@ function Projects(props) {
           <img className='fittech image' src={Fittech} />
             <div className='overlay'>
               <div className='image-text'>Fit-Tech</div>
+          </div>
+        </div>
+        <div className='image-container'>
+          <img className='fittech image' src={Bartender} />
+            <div className='overlay'>
+              <div className='image-text'>Bar-Tender</div>
           </div>
         </div>
       </div>
