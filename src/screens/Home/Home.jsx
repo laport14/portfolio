@@ -1,5 +1,6 @@
 import React from 'react';
 import Layout from '../../components/shared/Layout/Layout';
+import {Link} from 'react-router-dom'
 import './Home.css'
 
 function Home(props) {
@@ -11,11 +12,12 @@ function Home(props) {
             <h1 className='hero-text-header'>Geoff LaPorte</h1>
             <h2 className='job-title'>Junior Software Engineer</h2>
             <p className='about-text'>Some lorem ipsem here</p>
+            <Link to='/projects'>
             <button className='project-button'>Projects</button>
+            </Link>
             </div>
         </div>
-      
-    </div>
+      </div>
     </Layout>
   );
 }

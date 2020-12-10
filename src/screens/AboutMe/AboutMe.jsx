@@ -1,10 +1,13 @@
 import React from 'react';
+import Layout from '../../components/shared/Layout/Layout';
 
 function AboutMe(props) {
   return (
-    <div>
+    <Layout>
+      <div>
       
-    </div>
+      </div>
+    </Layout>
   );
 }
 

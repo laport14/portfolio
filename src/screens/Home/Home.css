@@ -1,8 +1,11 @@
 .content-container {
-  height: 80vh;
+  height: 90vh;
   min-width: 100vw;
   background: #000000;
-  background: url('')
+  background: url('https://github.com/laport14/portfolio/blob/main/src/Assets/wallpaper.jpg?raw=true');
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .hero-container {
@@ -11,50 +14,74 @@
   flex-direction: column;
 }
 
-.border-gradient {
-  border-top: 10px solid;
-  border-image-slice: 1;
-  border-width: 5px;
-}
-
-.border-gradient-pink {
-  border-image-source: linear-gradient(to left, #75e2df,	#e87fcd);
-}
-
 .hero-text-header {
   font-size: 80px;
-  font-family: 'Bebas Neue', sans-serif;
-  margin-top: 100px;
+  letter-spacing: 5px;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 50px;
   margin-bottom: 0px;
-  color: #AAA998;
+  color: #A8A898;
+  animation: fadeInAnimation ease 3s; 
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards;
 }
 
 .job-title {
   color: #AAA998;
+  letter-spacing: 5px;
+  font-size: 35px;
+  animation: fadeInAnimation ease 3s; 
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards;
 }
 
 .about-text {
   color: #AAA998;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  letter-spacing: 2px;
+  animation: fadeInAnimation ease 3s; 
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards;
 }
 
 .project-button {
   width: 200px;
   height: 40px;
+  font-size: 14px;
   margin: 0 auto;
   background-color: #333843;
-  background: linear-gradient(-270deg, #75e2df,	#e87fcd);
+  background: linear-gradient(-270deg, #A8A898,	#494843);
   border: none;
-  color: #333843;
+  color: #ffffff;
   letter-spacing: 2px;
-  font-family: 'Bebas Neue', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .project-button:hover {
   cursor: pointer;
+  background: linear-gradient(-45deg, #A8A898, #494843, #161618, #161618, #494843, #A8A898);
+  background-size: 400% 400%;
+  animation: Gradient 5s ease-in-out infinite;
 }
 
 .job-title {
   font-size: 35px;
-  font-family: 'Bebas Neue', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   margin: 10px;
+}
+
+@keyframes Gradient {
+  0%{background-position: 0% 50%}
+  50%{background-position: 100% 50%}
+  100%{background-position: 0% 50%}
+}
+
+@keyframes fadeInAnimation { 
+  0% { 
+      opacity: 0; 
+  } 
+  100% { 
+      opacity: 1; 
+  } 
 }

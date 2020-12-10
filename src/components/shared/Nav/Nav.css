@@ -1,11 +1,8 @@
 .nav-bar {
   display: -webkit-flex;
-  background: url('https://github.com/laport14/portfolio/blob/main/src/Assets/background.png?raw=true');
-  height: 20vh;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
+  height: 10vh;
   min-width: 100vw;
+  background: #161618;
 }
 
 .nav-contents {
@@ -24,24 +21,27 @@
 }
 
 .header-link-home {
-  font-family: 'Bungee Shade', sans-serif;
-  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-size: 24px;
   animation: fadeInAnimation ease 1s; 
     animation-iteration-count: 1; 
     animation-fill-mode: forwards;
 }
 
 .header-link-about {
-  font-family: 'Bungee Shade', sans-serif;
-  font-size: 30px;
-  animation: fadeInAnimation ease 3s; 
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-size: 24px; 
+  animation: fadeInAnimation ease 3s;
     animation-iteration-count: 1; 
     animation-fill-mode: forwards;
 }
 
 .header-link-contact {
-  font-family: 'Bungee Shade', sans-serif;
-  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-size: 24px;
   animation: fadeInAnimation ease 7s; 
     animation-iteration-count: 1; 
     animation-fill-mode: forwards;
@@ -49,8 +49,9 @@
 }
 
 .header-link-work {
-  font-family: 'Bungee Shade', sans-serif;
-  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-size: 24px;
   animation: fadeInAnimation ease 5s; 
     animation-iteration-count: 1; 
     animation-fill-mode: forwards;
@@ -68,10 +69,12 @@
 }
 
 .nav-logo {
-  font-family: 'Bungee Shade', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  opacity: 0;
   font-size: 56px;
+  color: #AAA998
 }
 
 h3 {
-  color: #333843;
+  color: #AAA998;
 }
