@@ -1,10 +1,8 @@
 .content-container {
-  background: url('https://github.com/laport14/portfolio/blob/main/src/Assets/background.png?raw=true');
   height: 80vh;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
   min-width: 100vw;
+  background: #000000;
+  background: url('')
 }
 
 .hero-container {
@@ -28,15 +26,15 @@
   font-family: 'Bebas Neue', sans-serif;
   margin-top: 100px;
   margin-bottom: 0px;
-  color: #333843;
+  color: #AAA998;
 }
 
 .job-title {
-  color: #333843;
+  color: #AAA998;
 }
 
 .about-text {
-  color: #333843;
+  color: #AAA998;
 }
 
 .project-button {
@@ -51,7 +49,7 @@
   font-family: 'Bebas Neue', sans-serif;
 }
 
-.project-button:onhover {
+.project-button:hover {
   cursor: pointer;
 }
 

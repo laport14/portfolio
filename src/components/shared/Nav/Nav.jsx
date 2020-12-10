@@ -8,15 +8,15 @@ function Nav(props) {
     <div className="nav-bar">
       <div className="nav-contents">
         <div>
-        <Link to='/'>
-          <img className="nav-logo" src={Logo} alt="Geoff Logo"/>
+        <Link to='/' style={{textDecoration: 'none', color: '#000000'}}>
+          <h1 className='nav-logo'>GL</h1>
         </Link>
         </div>
           <div className='nav-links'>
-            <h3>Home</h3>
-            <h3>About</h3>
-            <h3>Work</h3>
-            <h3>Contact</h3>
+            <h3 className='header-link-home'>Home</h3>
+            <h3 className='header-link-about'>About</h3>
+            <h3 className='header-link-work'>Work</h3>
+            <h3 className='header-link-contact'>Contact</h3>
           </div>
       </div>
     </div>
