@@ -12,7 +12,7 @@ function Home(props) {
             <h1 className='hero-text-header'>Geoff LaPorte</h1>
             <h2 className='job-title'>Junior Software Engineer</h2>
             <p className='about-text'>Some lorem ipsem here</p>
-            <Link to='/projects'>
+            <Link to='/projects' style={{width: '200px', margin: '0 auto'}}>
             <button className='project-button'>Projects</button>
             </Link>
             </div>

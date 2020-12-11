@@ -1,30 +1,22 @@
 .projects-container {
-  /* height: 90vh; */
+  min-height: 90vh;
   min-width: 100vw;
   background: #000000;
   background: url('https://github.com/laport14/portfolio/blob/main/src/Assets/wallpaper.jpg?raw=true');
   display: flex;
-  justify-content: center;
+  justify-content: center; 
   align-items: center;
   flex-flow: row wrap;
-}
-
-.greenhouse {
-  height: 400px;
-}
-
-.bucketlist {
-  height: 400px;
-}
-
-.fittech {
-  height: 400px;
+  padding-bottom: 70px;
 }
 
 .image-container {
   position: relative;
   width: 25%;
-  margin: 100px;
+  margin: 70px 100px 0px 100px;
+  animation: fadeInAnimation ease 1s; 
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards;
 }
 
 .image{
@@ -65,4 +57,13 @@
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
   font-size: 24px;
+}
+
+@keyframes fadeInAnimation { 
+  0% { 
+      opacity: 0; 
+  } 
+  100% { 
+      opacity: 1; 
+  } 
 }

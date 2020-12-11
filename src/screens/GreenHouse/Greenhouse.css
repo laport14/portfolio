@@ -1,0 +1,14 @@
+.project-container {
+  height: 90vh;
+  min-width: 100vw;
+  background: #000000;
+  background: url('https://github.com/laport14/portfolio/blob/main/src/Assets/wallpaper.jpg?raw=true');
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.project-image {
+  height: 700px;
+}
