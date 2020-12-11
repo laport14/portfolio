@@ -1,0 +1,59 @@
+.contact-container {
+  height: 90vh;
+  min-width: 100vw;
+  background: #000000;
+  background: url('https://github.com/laport14/portfolio/blob/main/src/Assets/wallpaper.jpg?raw=true');
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 10%;
+}
+
+.contact-form {
+  display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.contact-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+}
+
+.contact-label {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+}
+
+.textarea-input {
+  width: 400px;
+  height: 200px;
+  margin-bottom: 10px;
+  outline: none;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.input {
+  width: 400px;
+  height: 30px;
+  margin-bottom: 10px;
+  outline: none;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.contact-button {
+  width: 200px;
+  height: 40px;
+  font-size: 14px;
+  background-color: #333843;
+  background: linear-gradient(-270deg, #A8A898, #494843);
+  border: none;
+  color: #ffffff;
+  letter-spacing: 2px;
+  font-family: 'Montserrat', sans-serif;
+}

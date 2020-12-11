@@ -4,7 +4,7 @@
   background: #000000;
   background: url('https://github.com/laport14/portfolio/blob/main/src/Assets/wallpaper.jpg?raw=true');
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   flex-direction: row;
 }
@@ -27,4 +27,32 @@
 
 .tech-stack-be {
   color:  #A8A898;
+}
+
+.project-view-container {
+  text-align: left;
+}
+
+.project-description-container {
+  text-align: left;
+}
+
+.project-link {
+  text-decoration: none;
+  color: #161618;
+  border: 1px solid white;
+  margin-right: 10px;
+  padding: 10px 60px;
+  background-color: white;
+}
+
+.project-img {
+  height: 20px;
+  width: 20px;
+  padding-top: 10px;
+}
+
+.project-link:hover {
+  background-color: #A8A898;
+  border: 1px solid #A8A898;
 }

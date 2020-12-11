@@ -1,12 +1,26 @@
 import React from 'react';
+import './AboutMe.css'
 import Layout from '../../components/shared/Layout/Layout';
+import headshot from '../../Assets/headshot.png'
+import chrome from '../../Assets/chrome.png'
 
 function AboutMe(props) {
   return (
     <Layout>
-      <div>
-      
+      <div className='about-container'>
+        <img className='about-image' src={headshot} alt='headshot' />
+        <div className='aboutme-div'>
+          <h2 className='about-title'>About me</h2>
+          <p className='about-description'>
+            Software Developer pivoting from management consulting and project management to pursue my passion for technology.
+            Has experience driving results and optimizing business delivery goals utilizing technology to create efficiencies.
+            Track record of client handling at director level and down for Fortune 500 companies.
+            Proven professional experience in delivering the highest quality product to customers and collaborating with dev/project teams through project sprints in order to achieve deliverables.
+            Prideful of individual work product and work ethic and am eager to take on new challenges.</p>
+          <a className='project-link' rel='nonreferrer' target='_blank' href='https://drive.google.com/file/d/1ol0eJrCZx4ubKtmHiOGZL3nlHmvioFgk/view?usp=sharing'>Resume <img className='project-img' src={chrome} /></a>
+        </div>
       </div>
+
     </Layout>
   );
 }
