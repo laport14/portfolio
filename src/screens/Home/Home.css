@@ -107,3 +107,32 @@
       opacity: 1; 
   } 
 }
+
+
+@media only screen and (max-width: 768px) {
+
+  .hero-text-header {
+    font-size: 60px;
+  }
+
+  .job-title {
+    font-size: 30px;
+  }
+
+}
+
+@media only screen and (max-width: 500px) {
+
+  .hero-text-header {
+    font-size: 40px;
+  }
+
+  .job-title {
+    font-size: 24px;
+  }
+
+  .about-text {
+    font-size: 16px;
+  }
+
+}

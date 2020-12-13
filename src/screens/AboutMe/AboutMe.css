@@ -39,4 +39,24 @@
   .aboutme-div {
     width: 75%
   }
+
+  .about-image {
+    width: 40%
+  }
+
+  .about-description {
+    font-size: 16px;
+  }
+
+  .about-title {
+    font-size: 24px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .about-container {
+    justify-content: flex-start;
+    padding-top: 75px;
+    min-height: 100vh;
+  }
 }

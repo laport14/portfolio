@@ -88,4 +88,22 @@ h3 {
     justify-content: space-evenly;
   }
 
+  .header-link-home {
+    font-size: 20px;
+  }
+
+  .header-link-about {
+    font-size: 20px;
+  }
+
+  .header-link-contact {
+    font-size: 20px;
+  }
+
+  .header-link-work {
+    font-size: 20px;
+  }
+
+
+
 }
