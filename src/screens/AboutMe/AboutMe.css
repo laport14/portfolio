@@ -57,6 +57,6 @@
   .about-container {
     justify-content: flex-start;
     padding-top: 75px;
-    min-height: 100vh;
+    min-height: 120vh;
   }
 }
