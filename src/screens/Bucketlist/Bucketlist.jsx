@@ -14,7 +14,9 @@ function Bucketlist(props) {
         </div>
         <div className='project-description-container'>
         <h2 className='project-description-title'>Project Description</h2>
-        <p className='project-description'>Project Description with some text should go in this location</p>
+          <p className='project-description'>Everyone talks about their bucket list items but who really has taken the time to write them down..
+          Bucket-List is a web application that allows users to do just that. Users are encouraged to share their bucket-list ideas with their family and friends who can comment on
+        the user's bucket list activity. Users should also feel safe knowing that their is login information is secure as there is backend authentication in this application.</p>
         <h2>Built With</h2>
         <p className='tech-stack-fe'>Front End - React, CSS & Styled Components</p>
           <p className='tech-stack-be'>Back End - Ruby on Rails, Postgresql & JWT Token for Authorization</p>

@@ -17,6 +17,10 @@ function AboutMe(props) {
             Track record of client handling at director level and down for Fortune 500 companies.
             Proven professional experience in delivering the highest quality product to customers and collaborating with dev/project teams through project sprints in order to achieve deliverables.
             Prideful of individual work product and work ethic and am eager to take on new challenges.</p>
+            <h2 className='about-title'>Languages & Frameworks</h2>
+          <p className='about-description'>
+            HTML, CSS, JavaScript, React, Node.js, Ruby, Ruby on Rails, Postgresql, Express, MongoDB, & Mongoose.  
+            </p>
           <a className='project-link' rel='nonreferrer' target='_blank' href='https://drive.google.com/file/d/1ol0eJrCZx4ubKtmHiOGZL3nlHmvioFgk/view?usp=sharing'>Resume <img className='project-img' src={chrome} /></a>
         </div>
       </div>

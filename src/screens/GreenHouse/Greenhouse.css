@@ -15,18 +15,22 @@
 
 .project-title {
   color:  #A8A898;
+  font-size: 30px;
 }
 
 .project-description {
   color:  #A8A898;
+  font-size: 20px;
 }
 
 .tech-stack-fe {
   color:  #A8A898;
+  font-size: 20px;
 }
 
 .tech-stack-be {
   color:  #A8A898;
+  font-size: 20px;
 }
 
 .project-view-container {
@@ -35,6 +39,7 @@
 
 .project-description-container {
   text-align: left;
+  width: 40%
 }
 
 .project-link {

@@ -71,6 +71,22 @@
   margin: 10px;
 }
 
+.about-links {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.about-text {
+  margin-right: 15px;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+
+.about-text:hover {
+  border: 1px solid 
+}
+
 @keyframes Gradient {
   0%{background-position: 0% 50%}
   50%{background-position: 100% 50%}

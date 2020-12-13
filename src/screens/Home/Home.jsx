@@ -11,7 +11,10 @@ function Home(props) {
           <div className='hero-container border-gradient border-gradient-pink'>
             <h1 className='hero-text-header'>Geoff LaPorte</h1>
             <h2 className='job-title'>Software Engineer</h2>
-            <p className='about-text'>Some lorem ipsem here</p>
+            <div className='about-links'>
+              <a className='about-text' rel='nonreferrer' target='_blank' href='https://www.linkedin.com/in/laportegeoffrey/'>LinkedIn</a>
+              <a className='about-text' rel='nonreferrer' target='_blank' href='https://github.com/laport14'>Github</a>
+            </div>
             <Link to='/projects' style={{width: '200px', margin: '0 auto'}}>
             <button className='project-button'>Projects</button>
             </Link>

@@ -15,7 +15,9 @@ function Greenhouse(props) {
         </div>
         <div className='project-description-container'>
           <h2 className='project-description-title'>Project Description</h2>
-            <p className='project-description'>Project Description with some text should go in this location</p>
+          <p className='project-description'>GreenHouse is an app built with the intention of users being able to track their energy savings based on the equipment they have purchased for their house.
+          For the first iteration, myself and a team of other developers built out the landing page with full CRUD capabilities around the "articles" feature. The second iteration of the project
+          included adding a library of equipment and incorporated the dashboard concept. We also built full CRUD around a user and utilized local storage and useContext to access/store user information.</p>
           <h2>Built With</h2>
             <p className='tech-stack-fe'>Front End - React, CSS & Styled Components</p>
             <p className='tech-stack-be'>Back End - Express, MongoDB & Mongoose</p>

@@ -14,7 +14,9 @@ function Bartender(props) {
         </div>
         <div className='project-description-container'>
         <h2 className='project-description-title'>Project Description</h2>
-        <p className='project-description'>Project Description with some text should go in this location</p>
+          <p className='project-description'>One of the most difficult undertakings of being an adult is having to figure out what to have for dinner every night.
+          A sure way to spice up your dinners is to have a refreshing cocktail to go with it. If/when you get an itch to make a tasty cocktail, Bar-Tender is the application for you. This application has over +100 different cocktail recipes!
+        The best part being you can select cocktails based off of liquor preference. Cheers!</p>
         <h2>Built With</h2>
         <p className='tech-stack-fe'>Front End - HTML, CSS & JavaScript</p>
           <p className='tech-stack-be'>CocktailDB RESTful API</p>
