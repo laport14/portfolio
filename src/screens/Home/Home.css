@@ -48,7 +48,7 @@
 .project-button {
   width: 200px;
   height: 40px;
-  font-size: 14px;
+  font-size: 16px;
   margin: 0 auto;
   background-color: #333843;
   background: linear-gradient(-270deg, #A8A898,	#494843);
@@ -78,13 +78,19 @@
 }
 
 .about-text {
-  margin-right: 15px;
-  margin-bottom: 10px;
+  margin: 10px;
   text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 35px;
 }
 
 .about-text:hover {
-  border: 1px solid 
+  background: linear-gradient(-45deg, #A8A898, #494843, #161618, #161618, #494843, #A8A898);
+  background-size: 200% 200%;
+  animation: Gradient 5s ease-in-out infinite;
 }
 
 @keyframes Gradient {

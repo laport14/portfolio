@@ -28,3 +28,15 @@
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;
 }
+
+@media only screen and (max-width: 768px) {
+
+  .about-container {
+    flex-direction: column;
+    min-height: 120vh;
+  }
+
+  .aboutme-div {
+    width: 75%
+  }
+}

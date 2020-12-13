@@ -78,3 +78,14 @@
 h3 {
   color: #AAA998;
 }
+
+@media only screen and (max-width: 768px) {
+  .nav-logo {
+    display: none;
+  }
+
+  .nav-contents {
+    justify-content: space-evenly;
+  }
+
+}
