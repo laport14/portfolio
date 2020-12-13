@@ -21,7 +21,7 @@ function AboutMe(props) {
           <p className='about-description'>
             HTML, CSS, JavaScript, React, Node.js, Ruby, Ruby on Rails, Postgresql, Express, MongoDB, & Mongoose.  
             </p>
-          <a className='project-link' rel='nonreferrer' target='_blank' href='https://drive.google.com/file/d/1ol0eJrCZx4ubKtmHiOGZL3nlHmvioFgk/view?usp=sharing'>Resume <img className='project-img' src={chrome} /></a>
+          <a className='project-link' rel='noreferrer' target='_blank' href='https://drive.google.com/file/d/1ol0eJrCZx4ubKtmHiOGZL3nlHmvioFgk/view?usp=sharing'>Resume <img className='project-img' src={chrome} alt='chrome' /></a>
         </div>
       </div>
 
