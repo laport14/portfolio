@@ -10,7 +10,7 @@ function Bartender(props) {
       <div className='project-container'>
         <div className='project-view-container'>
           <h2 className='project-title'>Tablet View</h2>
-          <img className='project-image' src={bartender} />
+          <img className='project-image' src={bartender} alt='bartender'/>
         </div>
         <div className='project-description-container'>
         <h2 className='project-description-title'>Project Description</h2>
@@ -20,8 +20,8 @@ function Bartender(props) {
         <h2>Built With</h2>
         <p className='tech-stack-fe'>Front End - HTML, CSS & JavaScript</p>
           <p className='tech-stack-be'>CocktailDB RESTful API</p>
-          <a className='project-link' rel='nonreferrer' target='_blank' href='https://github.com/laport14/Bar-Tender'>See Code <img className='project-img' src={github} /></a>
-          <a className='project-link' rel='nonreferrer' target='_blank' href='https://laport14.github.io/Bar-Tender/'>Website <img className='project-img' src={www}/></a>
+          <a className='project-link' rel='noreferrer' target='_blank' href='https://github.com/laport14/Bar-Tender'>See Code <img className='project-img' src={github} alt='github'/></a>
+          <a className='project-link' rel='noreferrer' target='_blank' href='https://laport14.github.io/Bar-Tender/'>Website <img className='project-img' src={www} alt='site'/></a>
         </div>
       </div>
     </Layout>
