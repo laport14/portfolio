@@ -33,7 +33,7 @@
 
   .about-container {
     flex-direction: column;
-    min-height: 120vh;
+    height: 100%;
   }
 
   .aboutme-div {
@@ -57,6 +57,6 @@
   .about-container {
     justify-content: flex-start;
     padding-top: 75px;
-    min-height: 120vh;
+    height: 100%;
   }
 }
