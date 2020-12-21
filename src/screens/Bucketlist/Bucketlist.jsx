@@ -3,12 +3,14 @@ import Layout from '../../components/shared/Layout/Layout';
 import bucketlist from '../../Assets/bucketlist.gif'
 import github from '../../Assets/github.png'
 import www from '../../Assets/www.png'
+import {Link} from 'react-router-dom'
 
 function Bucketlist(props) {
   return (
     <Layout>
       <div className='project-container'>
         <div className='project-view-container'>
+        <Link className='next-button' to='/fittech'>Next Project</Link>
           <h2 className='project-title'>Tablet View</h2>
           <img className='project-image' src={bucketlist} alt='bucketlist' />
         </div>

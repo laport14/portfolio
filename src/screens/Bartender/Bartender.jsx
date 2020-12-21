@@ -3,12 +3,14 @@ import Layout from '../../components/shared/Layout/Layout';
 import bartender from '../../Assets/bartender.gif'
 import github from '../../Assets/github.png'
 import www from '../../Assets/www.png'
+import {Link} from 'react-router-dom'
 
 function Bartender(props) {
   return (
     <Layout>
       <div className='project-container'>
         <div className='project-view-container'>
+        <Link className='next-button' to='/greenhouse'>Next Project</Link>
           <h2 className='project-title'>Tablet View</h2>
           <img className='project-image' src={bartender} alt='bartender'/>
         </div>

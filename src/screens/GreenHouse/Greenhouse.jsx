@@ -4,12 +4,14 @@ import './Greenhouse.css'
 import GreenHouse from '../../Assets/greenhouse.gif'
 import github from '../../Assets/github.png'
 import www from '../../Assets/www.png'
+import { Link } from 'react-router-dom';
 
 function Greenhouse(props) {
   return (
     <Layout>
       <div className='project-container'>
         <div className='project-view-container'>
+          <Link className='next-button' to='/bucketlist'>Next Project</Link>
           <h2 className='project-title'>Tablet View</h2>
           <img className='project-image' src={GreenHouse} alt='greenhouse' />
         </div>
